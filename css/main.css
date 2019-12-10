@@ -28,7 +28,8 @@ body {
   padding: 0;
 }
 
-nav a {
+///////////// Header ////////////
+.header a {
   text-decoration: none;
   color: #fff;
   padding: .5em .75em;
@@ -36,7 +37,7 @@ nav a {
   white-space: nowrap;
 }
 
-nav a:hover {
+.header a:hover {
   background-color: #b75c1a;
   color: #fff;
 }
@@ -70,7 +71,7 @@ header h2 {
   border-bottom-style: double;
 }
 
-nav ul {
+.header ul {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -79,10 +80,11 @@ nav ul {
   font-size: 1.125rem;
 }
 
-nav li {
+.header li {
   width: 50%;
   display: inline;
   text-align: center;
+  text-decoration: none;
 }
 
 .photo {
@@ -102,6 +104,7 @@ nav li {
 
 }
 
+///////////// Main ////////////
 h2 {
   padding: 0;
   margin: 0 1rem 1.3rem;
@@ -177,10 +180,60 @@ p {
   color: #fff;
 }
 
+///////////// Footer ////////////
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem 0;
+
+  background-color: #8bc9d9;
+  border-top: 3px solid #005e76;
+
+  color: #005e76;
+}
+
+.footer h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.footer ul {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer a {
+  color: #003442;
+}
+
+.links {
+  padding: 0 1rem;
+}
+
+.social {
+  margin-left: auto;
+  padding: 0 1rem;
+  display: flex;
+}
+
+.social > li {
+  margin: 0 .5em;
+  width: 3em;
+}
+
+.copyright {
+  padding: 0 1rem;
+  width: 100%;
+}
+
 / Mobile /
 @media only screen and (min-width: 25em) {
 
-  nav li {
+  .header li {
     width: 50%;
     text-align: center;
   }
@@ -193,7 +246,7 @@ p {
 
 @media only screen and (min-width: 38em) {
 
-  nav li {
+  n.header li {
     width: 25%;
   }
 
@@ -216,7 +269,7 @@ p {
     align-items: center;
   }
 
-  nav li {
+  .header li {
     width: auto;
   }
 
@@ -279,7 +332,7 @@ img {
   }
 
 / Nav Styling /
-  nav {
+  .header {
     display: inline-block;
     background-color: #eee;
     text-align: center;
