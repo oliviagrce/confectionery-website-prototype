@@ -21,7 +21,7 @@ html {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
-  }
+}
 
 body {
   margin: 0;
@@ -71,16 +71,6 @@ header h1 {
   line-height: 1;
 }
 
-header h2 {
-  display: block;
-  padding-bottom: 1rem;
-  text-align: center;
-  font-size: 1rem;
-  color: #fff;
-  font-weight: lighter;
-  margin: 0;
-}
-
 .header ul {
   display: flex;
   flex-wrap: wrap;
@@ -91,8 +81,8 @@ header h2 {
 }
 
 .nav li {
-  width: auto;
-  display: inline;
+  width: 50%;
+  display: inline-block;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -130,7 +120,7 @@ header h2 {
 
 h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #b75c1a;
   font-weight: bold;
   margin: 0;
@@ -150,11 +140,11 @@ p {
 }
 
 .classes h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #b75c1a;
   font-weight: bold;
   margin: 0;
-  padding: 0.5rem .5rem;
+  padding: .5rem;
 }
 
 .classes li {
@@ -209,6 +199,28 @@ p {
 }
 
 .classes a:hover {
+  background-color: #b75c1a;
+  color: #fff;
+}
+
+.visit {
+  text-align: center;
+}
+
+.contact div {
+  text-align: center;
+}
+
+.contact a {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #efba92;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact a:hover {
   background-color: #b75c1a;
   color: #fff;
 }
