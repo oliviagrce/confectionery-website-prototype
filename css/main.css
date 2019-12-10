@@ -143,11 +143,18 @@ p {
 }
 
 .classes {
-  display: inline-block;
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
+}
+
+.classes h3 {
+  font-size: 1.5rem;
+  color: #b75c1a;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem .5rem;
 }
 
 .classes li {
@@ -156,13 +163,13 @@ p {
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
-  border: 3px solid #e2e2e2;
+  border: 3px solid #b75c1a;
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 .classes img {
-  display: block;
+  width: 100%;
   margin: 0 auto 1rem;
 }
 
@@ -179,7 +186,6 @@ p {
 
 .classes dt {
   display: inline-block;
-  width: 6em;
   font-style: italic;
 }
 
@@ -195,25 +201,16 @@ p {
 
 .classes a {
   display: inline-block;
-  padding: .5em .75em;
-  background-color: #ccc;
+  padding: 1em 2em;
+  background-color: #efba92;
   border-radius: 4px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
 .classes a:hover {
-  background-color: #333;
+  background-color: #b75c1a;
   color: #fff;
-}
-
-.img-class {
-  width: 100%;
-}
-
-.img-social {
-  display: block;
-  width: 100%;
 }
 
 .footer {
@@ -260,6 +257,11 @@ p {
 
 .copyright {
   padding: 0 1rem;
+  width: 100%;
+}
+
+.img-social {
+  display: block;
   width: 100%;
 }
 
