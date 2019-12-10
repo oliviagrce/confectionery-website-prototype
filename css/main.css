@@ -28,8 +28,16 @@ body {
   padding: 0;
 }
 
-///////////// Header ////////////
-.header a {
+header .logo {
+  max-width: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: .5rem 0 .25rem;
+}
+
+.nav a {
   text-decoration: none;
   color: #fff;
   padding: .5em .75em;
@@ -37,38 +45,40 @@ body {
   white-space: nowrap;
 }
 
-.header a:hover {
+.nav a:hover {
   background-color: #b75c1a;
   color: #fff;
 }
 
 header {
   background-color: #efba92;
-  padding: 0 .5em;
+  padding: 0;
   color: #fff;
   margin: 0;
 }
 
 header h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: #fff;
   font-weight: bold;
   margin: 0;
-  padding: .5rem 0;
+  padding: 0 .5rem .75rem;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: double;
+  line-height: 1;
 }
 
 header h2 {
+  display: block;
   padding-bottom: 1rem;
   text-align: center;
   font-size: 1rem;
   color: #fff;
   font-weight: lighter;
   margin: 0;
-  border-top-style: hidden;
-  border-left-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: double;
 }
 
 .header ul {
@@ -80,11 +90,12 @@ header h2 {
   font-size: 1.125rem;
 }
 
-.header li {
+.nav li {
   width: 50%;
   display: inline;
   text-align: center;
   text-decoration: none;
+  color: #fff;
 }
 
 .photo {
@@ -104,11 +115,25 @@ header h2 {
 
 }
 
-///////////// Main ////////////
-h2 {
+.img-flex {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
-  margin: 0 1rem 1.3rem;
+  justify-content: flex-end;
+}
+
+.img {
+  margin: 0;
+  padding: 0 0 1rem;
+}
+
+h2 {
   text-align: center;
+  font-size: 2rem;
+  color: #b75c1a;
+  font-weight: bold;
+  margin: 0;
+  padding: 1rem .5rem 1.5rem;
 }
 
 p {
