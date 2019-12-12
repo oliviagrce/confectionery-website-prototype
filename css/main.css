@@ -327,6 +327,12 @@ p {
 
 @media only screen and (min-width: 38em) {
 
+  header {
+    display: block;
+    position: fixed;
+    width: 100%;
+  }
+
   .header li {
     width: 25%;
   }
@@ -431,6 +437,12 @@ p {
 
   html {
     font-size: 130%;
+  }
+
+  header {
+    display: block;
+    position: fixed;
+    width: 100%;
   }
 
   .logo {
