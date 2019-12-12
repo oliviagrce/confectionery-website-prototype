@@ -346,9 +346,9 @@ p {
     justify-content: space-between;
   }
 
-.classes dl {
-  flex-grow: 1;
-}
+  .classes dl {
+    flex-grow: 1;
+  }
 
   html {
     font-size: 110%;
