@@ -56,8 +56,6 @@ header {
   color: #fff;
   margin: 0;
   display: block;
-  position: fixed;
-  width: 100%;
 }
 
 header h1 {
@@ -109,6 +107,9 @@ header h1 {
 
 .img-flex {
   display: block;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: flex-end;
   width: 100%;
 }
 
@@ -335,7 +336,16 @@ p {
 
   .classes li {
     max-width: 15em;
+    vertical-align: top;
+    height: 40em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+
+.classes dl {
+  flex-grow: 1;
+}
 
   html {
     font-size: 110%;
